@@ -1,0 +1,13 @@
+
+//change  bootstrap default color
+$primary:yellow;
+$danger:purple;
+$fontcolor:lighten($primary,60%);
+
+div {
+   color:$fontcolor;
+   font-size:30px;
+}
+
+//inport boostrap inside the scss file
+@import '~bootstrap/scss/bootstrap';
